@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Working with the Client - Building Trust</title>
+
+		<meta name="description" content="A Presentation on the importance of establishing trust with clients">
+		<meta name="author" content="Nazar Aziz">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+        <section>
+          <h1>Working with Clients</h1>
+          <h2>Building Trust</h2>
+
+          <aside class="notes">
+            A brief presentation on the important aspects of working with clients and keeping them happy
+          </aside>
+        </section>
+
+        <section>
+          <h1>Communicating with the Client</h1>
+
+          <aside class="notes">
+            Before I go on trust - establish best practices on communicating with clients
+          </aside>
+        </section>
+
+        <section>
+          <h2>Speak Their Language</h2>
+
+          <p class="fragment">Technical Background?</p>
+          <p class="fragment">Don't overwhelm non technical clients with technicalities - always explain with estimates and consequences</p>
+          <p class="fragment">Be precise and technical where appropriate</p>
+        </section>
+
+        <section>
+          <h2>Be Explicit</h2>
+
+          <p class="fragment">Record all requirements on stories or tickets and minimise verbal task agreements</p>
+          <p class="fragment">Choose a medium suitable for the client's technical abilities - i.e. Github <=> Trello</p>
+          <p class="fragment">Spell out the requirements</p>
+          <ul class="fragment">
+            <li>list task goals</li>
+            <li>link to design or formal requirements</li>
+            <li>state acceptance criteria</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Communicate Often</h2>
+
+          <p class="fragment">Keep client updated on a daily basis. Even better: small updates multiple times a day</p>
+          <div class="fragment">
+            <p >Use tools that notify clients as you work</p>
+            <ul>
+              <li>Github</li>
+              <li>Pivotal Tracker</li>
+              <li>Jira</li>
+              <li>Trello</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Formalise Acceptance</h2>
+
+          <div class="fragment">
+            <p>A task is complete if</p>
+            <ul>
+              <li>fulfils the stated acceptance criteria</li>
+              <li>is accepted by the client - iterate until the client accepts</li>
+            </ul>
+          </div>
+
+          <p class="fragment">Watch out for scope creep</p>
+        </section>
+
+
+        <section>
+          <h1>Trust</h1>
+        </section>
+
+        <section>
+          <h1>Trust?</h1>
+
+          <p class="fragment">An automatic assessment of you</p>
+
+          <div class="fragment">
+            <p class="fragment highlight-blue">Hardworking</p>
+            <p class="fragment highlight-blue">Quick to respond</p>
+            <p class="fragment highlight-blue">Proficient</p>
+
+            <p class="fragment highlight-red">Lazy</p>
+            <p class="fragment highlight-red">Slow</p>
+            <p class="fragment highlight-red">Unresponsive</p>
+          </div>
+
+          <aside class="notes">
+            Trust is how someone instinctively describes your character and influences how someone behaves and interacts with you
+          </aside>
+        </section>
+
+        <section>
+          <h2>How to Build Trust?</h2>
+
+          <aside class="notes">
+            Four simple steps to build trust with clients
+          </aside>
+        </section>
+
+        <section>
+          <h2>Reliability</h2>
+
+          <ul class="fragment">
+            <li>don't be late - let the client know if you are</li>
+            <li>be consistent</li>
+            <li>don't surprise</li>
+            <li>keep the client informed</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Sincerity</h2>
+
+          <ul class="fragment">
+            <li>be honest - don't undertake what can't be realistically delivered</li>
+            <li>don't just say yes - refusing a request is better than accepting and failing</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Competence</h2>
+
+          <ul class="fragment">
+            <li>only accept technically feasible tasks</li>
+            <li>delegate tasks to the most appropriate people</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Empathy</h2>
+
+          <ul class="fragment">
+            <li>embrace the client's prospective: good and bad. Negative client assessments are free hints for improvement</li>
+            <li>care for the client, their vision and success</li>
+            <li>client should feel that we work exclusively for them</li>
+            <li>advance the client; not yourself</li>
+          </ul>
+        </section>
+
+        <section></section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+    <script src="//192.168.40.10:35729/livereload.js?snipver=1" async="" defer=""></script>
+
+	</body>
+</html>
